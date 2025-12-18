@@ -1,0 +1,12 @@
+{
+  "symbol": "BTC-USD",
+  "price": 30250.0,
+  "signal": "sell",
+  "timeframe": "15m",
+  "indicators": {
+    "RSI": 72.1,
+    "MACD": -0.001,
+    "EMA20": 30100.0,
+    "ATR": 250.0
+  }
+}
