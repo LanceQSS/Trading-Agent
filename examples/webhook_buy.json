@@ -1,0 +1,12 @@
+{
+  "symbol": "ETH",
+  "price": 1725.5,
+  "signal": "buy",
+  "timeframe": "5m",
+  "indicators": {
+    "RSI": 28.4,
+    "MACD": 0.002,
+    "EMA20": 1701.3,
+    "ATR": 18.2
+  }
+}

@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "trading-agent"
+version = "0.1.0"
+description = "Deterministic modular crypto trading system"
+authors = ["Auto Dev <auto@example.com>"]
+readme = "README.md"
+packages = [{include = "trading_agent", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.30.0"}
+pydantic = "^2.7.0"
+sqlalchemy = "^2.0.30"
+aiosqlite = "^0.20.0"
+types-aiosqlite = "^0.2.0"
+python-dotenv = "^1.0.1"
+talib = "^0.4.29"
+httpx = "^0.27.0"
+xgboost = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+pytest-asyncio = "^0.23.6"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
